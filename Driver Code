@@ -1,0 +1,10 @@
+# Driver Code stores all commands
+if __name__ == '__main__':
+    # using while loop to communicate infinitely
+    while True:
+        command = take_commands()
+        if "hello" in command:
+            Speak("Hello User,I am jarvis")
+        if "exit" in command:
+            Speak("Sure user! as your wish, bai")
+            break
